@@ -84,3 +84,9 @@ app.listen(PORT, () => {
 
 
 //node server.js
+
+
+//for git changes
+//git add .
+//git commit -m "Describe your changes"
+//git push

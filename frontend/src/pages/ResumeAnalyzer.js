@@ -92,7 +92,7 @@ function ResumeAnalyzer() {
   // TEXT ANALYZE
   const analyzeText = async () => {
     try {
-      const res = await fetch("http://localhost:5000/api/ai/analyze", {
+      const res = await fetch("https://github.com/sakshi11maurya/carrierpilot/api/ai/analyze", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -115,7 +115,7 @@ function ResumeAnalyzer() {
       const formData = new FormData();
       formData.append("resume", file);
 
-      const res = await fetch("http://localhost:5000/api/ai/analyze-resume", {
+      const res = await fetch("/api/ai/analyze-resume", {
         method: "POST",
         body: formData
       });
