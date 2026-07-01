@@ -92,7 +92,7 @@ function ResumeAnalyzer() {
   // TEXT ANALYZE
   const analyzeText = async () => {
     try {
-      const res = await fetch("https://github.com/sakshi11maurya/carrierpilot/api/ai/analyze", {
+      const res = await fetch("https://carrierpilot.onrender.com/api/ai/analyze", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"

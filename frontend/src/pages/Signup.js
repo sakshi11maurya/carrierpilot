@@ -62,7 +62,7 @@ function Signup() {
   const handleSignup = async () => {
     try {
       const res = await axios.post(
-        "https://github.com/sakshi11maurya/carrierpilot/api/user/signup",
+        "https://carrierpilot.onrender.com/api/user/signup",
         { name, email, password }
       );
 
