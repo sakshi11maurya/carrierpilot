@@ -115,7 +115,7 @@ function ResumeAnalyzer() {
       const formData = new FormData();
       formData.append("resume", file);
 
-      const res = await fetch("/api/ai/analyze-resume", {
+      const res = await fetch("https://carrierpilot.onrender.com/api/ai/analyze-resume", {
         method: "POST",
         body: formData
       });
